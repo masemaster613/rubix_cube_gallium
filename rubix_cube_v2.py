@@ -19,6 +19,17 @@ def print_cube(cube):
     for row in cube[1] + cube[2] + cube[3]:
         print(" " * 4, end = "")
         print(" ".join(row))
+#check if cube is solved
+def check(cube):
+    solved_sides = 0
+    for i in range(len(cube)):
+        if cube[i][0][0] == cube[i][0][1] == cube[i][1][0] == cube[i][1][1]:
+            solved_sides += 1
+    if solved_sides == 6:
+        return True
+    else:
+        return False
+
 #make a general move thing
 def move(cube, dic):
     old_cube = copy.deepcopy(cube)
@@ -194,5 +205,7 @@ while True:
     else:
         print('error')
     print_cube(my_cube)
+
+
 
 
