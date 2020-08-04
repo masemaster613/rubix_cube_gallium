@@ -1,4 +1,4 @@
-# rubix_cube_galluim
+# rubix_cube_gallium
 
 I am trying a couple different implementations of a 2x2x2 rubix cube in python.
 
