@@ -7,3 +7,5 @@ v1 is basically my brute force method where I define what each possible move cha
 V2 defines each move using a dictionary in which the keys represent where each square starts and the values represent where each square is going, Then there is a general move function that takes the cube and the dictionary as inputs.
 
 I am thinking of implementing a v3 where i define a class of cube pieces in the cube. A 2x2x2 rubix cube has 8 pieces each with three sides, so tracking their position and orientation should give an alternate method of representing the cube.
+
+I am also using it as a way to practice python and git
